@@ -1,0 +1,78 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: HLLoader - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP780.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "../../_shared" /I "../_msvc" /I "../" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/HLLoader.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\VisualC++\projects\_shared\wiskunde.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP780.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP781.tmp" with contents
+[
+winmm.lib opengl32.lib glu32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib comctl32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/HLLoader.pdb" /debug /machine:I386 /out:"Debug/HLLoader.exe" /pdbtype:sept 
+".\Debug\CApplication.obj"
+".\Debug\CWin.obj"
+".\Debug\FileLoader.obj"
+".\Debug\Keys.obj"
+".\Debug\ThreeD.obj"
+".\Debug\WinMain.obj"
+".\Debug\wiskunde.obj"
+".\Debug\WtrCamera.obj"
+".\Debug\WtrEngine.obj"
+".\Debug\BSPFile.obj"
+".\Debug\BSPLump.obj"
+".\Debug\WADFile.obj"
+".\Debug\WADLump.obj"
+".\Debug\WADMiptex.obj"
+".\Debug\MAPBrush.obj"
+".\Debug\MAPEntity.obj"
+".\Debug\MAPFace.obj"
+".\Debug\MAPFile.obj"
+".\Debug\MAPParser.obj"
+".\Debug\MAPPropertie.obj"
+".\Debug\RMF2MS3D.obj"
+".\Debug\RMFCorner.obj"
+".\Debug\RMFEntity.obj"
+".\Debug\RMFFace.obj"
+".\Debug\RMFFile.obj"
+".\Debug\RMFGroup.obj"
+".\Debug\RMFKey.obj"
+".\Debug\RMFObject.obj"
+".\Debug\RMFPath.obj"
+".\Debug\RMFSolid.obj"
+".\Debug\RMFVisGroup.obj"
+".\Debug\MS3DFile.obj"
+".\Debug\MS3DGroup.obj"
+".\Debug\MS3DJoint.obj"
+".\Debug\MS3DKeyFramePos.obj"
+".\Debug\MS3DKeyFrameRot.obj"
+".\Debug\MS3DMaterial.obj"
+".\Debug\MS3DObject.obj"
+".\Debug\MS3DTriangle.obj"
+".\Debug\MS3DVertex.obj"
+".\Debug\BaseFile.obj"
+".\Debug\ByteContainer.obj"
+".\Debug\ByteIterator.obj"
+".\Debug\DirectoryFile.obj"
+".\Debug\DirectoryFolder.obj"
+".\Debug\DirectoryNode.obj"
+".\Debug\resource.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP781.tmp"
+<h3>Output Window</h3>
+Compiling...
+wiskunde.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+HLLoader.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
