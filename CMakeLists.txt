@@ -37,6 +37,8 @@ add_executable(HLLoader
     common/DirectoryFolder.h
     common/DirectoryNode.cpp
     common/DirectoryNode.h
+    common/wiskunde.cpp
+    common/wiskunde.h
     MAP/Debug
     MAP/MAPBrush.cpp
     MAP/MAPBrush.h

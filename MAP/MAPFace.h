@@ -7,7 +7,7 @@
 
 #include "MAPParser.h"
 
-#include "wiskunde.h"
+#include "../common/wiskunde.h"
 
 class CMAPFace  
 {

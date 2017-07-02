@@ -5,8 +5,8 @@
 #ifndef RMFVISGROUP_H
 #define RMFVISGROUP_H
 
-#include "wiskunde.h"
-#include "ArrayList.h"
+#include "../common/wiskunde.h"
+#include "../common/ArrayList.h"
 
 class CRMFVisGroup;
 typedef CArrayList <CRMFVisGroup*> VisGroupList;

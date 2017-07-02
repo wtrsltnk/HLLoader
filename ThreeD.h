@@ -7,7 +7,7 @@
 
 #define WIN32_MEAN_ADN_LEAN
 #include <windows.h>
-#include "resource.h"
+#include "_msvc/resource.h"
 
 #include "RMF/RMFFile.h"
 #include "MS3D/MS3DFile.h"

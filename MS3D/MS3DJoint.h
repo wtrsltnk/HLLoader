@@ -11,7 +11,7 @@ typedef unsigned short word;
 #include "MS3DObject.h"
 #include "MS3DKeyFramePos.h"
 #include "MS3DKeyFrameRot.h"
-#include "ArrayList.h"
+#include "../common/ArrayList.h"
 
 class CMS3DJoint;
 typedef CArrayList <CMS3DJoint*> MS3DJointList;

@@ -12,10 +12,10 @@
 #define	TOOLVERSION	2
 #define HEADER_LUMPS 15
 
-#include "common/BaseFile.h"
+#include "../common/BaseFile.h"
 #include "BSPLump.h"
-#include "WAD/WADMiptex.h"
-#include "MAP/MAPFile.h"
+#include "../WAD/WADMiptex.h"
+#include "../MAP/MAPFile.h"
 
 typedef struct
 {

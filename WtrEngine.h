@@ -9,7 +9,7 @@
 #include <gl/gl.h>
 #include <gl/glu.h>
 
-#include "wiskunde.h"
+#include "common/wiskunde.h"
 #include "WtrCamera.h"
 
 #define OK 1

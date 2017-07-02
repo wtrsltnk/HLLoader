@@ -8,7 +8,7 @@
 #include "MAPParser.h"
 #include "MAPFace.h"
 
-#include "ArrayList.h"
+#include "../common/ArrayList.h"
 
 class CMAPBrush  
 {

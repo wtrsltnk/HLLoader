@@ -5,7 +5,7 @@
 #ifndef MS3DMATERIAL_H
 #define MS3DMATERIAL_H
 
-#include "ArrayList.h"
+#include "../common/ArrayList.h"
 #include "MS3DObject.h"
 
 class CMS3DMaterial;

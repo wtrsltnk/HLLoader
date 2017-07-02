@@ -5,7 +5,7 @@
 #ifndef MS3DKEYFRAMEROT_H
 #define MS3DKEYFRAMEROT_H
 
-#include "ArrayList.h"
+#include "../common/ArrayList.h"
 
 class CMS3DKeyFrameRot;
 typedef CArrayList <CMS3DKeyFrameRot*> MS3DKeyFrameRotList;

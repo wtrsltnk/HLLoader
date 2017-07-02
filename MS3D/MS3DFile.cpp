@@ -3,7 +3,7 @@
 //////////////////////////////////////////////////////////////////////
 
 #include "MS3DFile.h"
-#include "common/ByteIterator.h"
+#include "../common/ByteIterator.h"
 
 #include <windows.h>
 #include <gl/gl.h>

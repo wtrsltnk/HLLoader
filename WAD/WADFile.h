@@ -5,7 +5,7 @@
 #ifndef WADFILE_H
 #define WADFILE_H
 
-#include "common/BaseFile.h"
+#include "../common/BaseFile.h"
 #include "WADLump.h"
 #include "WADMiptex.h"
 

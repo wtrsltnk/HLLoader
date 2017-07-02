@@ -9,7 +9,7 @@
 #include "MAPBrush.h"
 #include "MAPPropertie.h"
 
-#include "ArrayList.h"
+#include "../common/ArrayList.h"
 
 class CMAPEntity  
 {

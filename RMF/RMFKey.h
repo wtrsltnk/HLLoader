@@ -5,7 +5,7 @@
 #ifndef RMFKEY_H
 #define RMFKEY_H
 
-#include "ArrayList.h"
+#include "../common/ArrayList.h"
 
 class CRMFKey;
 typedef CArrayList <CRMFKey*> KeyList;

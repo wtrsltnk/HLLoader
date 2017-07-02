@@ -5,8 +5,8 @@
 #ifndef RMFGROUP_H
 #define RMFGROUP_H
 
-#include "wiskunde.h"
-#include "ArrayList.h"
+#include "../common/wiskunde.h"
+#include "../common/ArrayList.h"
 
 #include "RMFSolid.h"
 #include "RMFEntity.h"

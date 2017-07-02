@@ -5,7 +5,7 @@
 #ifndef WTRCAMERA_H
 #define WTRCAMERA_H
 
-#include "wiskunde.h"
+#include "common/wiskunde.h"
 #include "Keys.h"
 
 #define SPEED 1.0f

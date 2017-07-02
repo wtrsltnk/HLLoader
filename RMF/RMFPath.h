@@ -5,7 +5,7 @@
 #ifndef RMFPATH_H
 #define RMFPATH_H
 
-#include "ArrayList.h"
+#include "../common/ArrayList.h"
 
 #include "RMFObject.h"
 #include "RMFCorner.h"

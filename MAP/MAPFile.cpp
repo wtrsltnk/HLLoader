@@ -32,7 +32,7 @@ void CMAPFile::Clear()
 		delete ent;
 	}
 
-	for (i = 0; i < (int)this->FileTextures.Length(); i++)
+    for (int i = 0; i < (int)this->FileTextures.Length(); i++)
 	{
 		CWADMiptex* miptex = this->FileTextures[i];
 

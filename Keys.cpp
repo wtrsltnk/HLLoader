@@ -17,7 +17,7 @@ CKeys::CKeys(void)
 {
 	for (int i = 0; i < 255; i++)
 		m_Keys[i] = false;
-	for (i = 0; i < 16; i++)
+    for (int i = 0; i < 16; i++)
 		m_Buttons[i] = false;
 }
 

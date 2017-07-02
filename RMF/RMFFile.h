@@ -5,8 +5,8 @@
 #ifndef RMFFILE_H
 #define RMFFILE_H
 
-#include "common/BaseFile.h"
-#include "common/ByteIterator.h"
+#include "../common/BaseFile.h"
+#include "../common/ByteIterator.h"
 #include "RMFVisGroup.h"
 #include "RMFSolid.h"
 #include "RMFEntity.h"

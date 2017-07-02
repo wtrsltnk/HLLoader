@@ -5,8 +5,8 @@
 #ifndef MS3DFILE_H
 #define MS3DFILE_H
 
-#include "common/BaseFile.h"
-#include "common/ByteIterator.h"
+#include "../common/BaseFile.h"
+#include "../common/ByteIterator.h"
 //#include "common/ByteContainer.h"
 #include "MS3DJoint.h"
 #include "MS3DMaterial.h"

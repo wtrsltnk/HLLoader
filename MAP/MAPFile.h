@@ -5,12 +5,12 @@
 #ifndef MAPFILE_H
 #define MAPFILE_H
 
-#include "common/BaseFile.h"
+#include "../common/BaseFile.h"
 #include "MAPParser.h"
 #include "MAPEntity.h"
-#include "WAD/WADMiptex.h"
+#include "../WAD/WADMiptex.h"
 
-#include "ArrayList.h"
+#include "../common/ArrayList.h"
 
 class CMAPFile : public CBaseFile
 {
@@ -25,7 +25,7 @@ private:
 	TextureList FileTextures;
 
 	bool ParseEntites(CMAPParser* mp);
-	bool SaveEntities(FILE* file);
+    bool SaveEntities(FILE* file) throw();
 	void FindWadFiles();
 	char* GetWadfile(char* val, int start, int length);
 	void FindTextures();

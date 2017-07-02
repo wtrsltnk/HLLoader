@@ -2,7 +2,7 @@
 #define CAPPLICATION_H
 
 #include "CWin.h"
-#include "resource.h"
+#include "_msvc/resource.h"
 #include "FileLoader.h"
 
 #define ID_MOPENBSP		2305

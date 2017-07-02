@@ -5,8 +5,8 @@
 #ifndef RMFENTITY_H
 #define RMFENTITY_H
 
-#include "wiskunde.h"
-#include "ArrayList.h"
+#include "../common/wiskunde.h"
+#include "../common/ArrayList.h"
 
 #include "RMFObject.h"
 #include "RMFSolid.h"

@@ -35,7 +35,7 @@ CFileLoader::~CFileLoader()
 // Input   : 
 // Output  : 
 //////////////////////////////////////////////////////////////////////
-bool CFileLoader::LoadBSP()
+bool CFileLoader::LoadBSP() throw()
 {
 	bool res = true;
 	char file[256];
@@ -132,7 +132,7 @@ bool CFileLoader::LoadRMF() throw()
 // Input   : 
 // Output  : 
 //////////////////////////////////////////////////////////////////////
-bool CFileLoader::LoadWAD()
+bool CFileLoader::LoadWAD() throw()
 {
 	bool res = true;
 	char file[256];
@@ -161,7 +161,7 @@ bool CFileLoader::LoadWAD()
 // Input   : 
 // Output  : 
 //////////////////////////////////////////////////////////////////////
-bool CFileLoader::LoadMS3D()
+bool CFileLoader::LoadMS3D() throw()
 {
 	bool res = true;
 	char file[256];
@@ -710,13 +710,14 @@ bool CFileLoader::OpenFile(HWND hOwner, char* result, char *szFilter, char *szDe
 
 	if( GetOpenFileName( &ofn ) != 0 )
 	{
-		for ( int i = 0; i < (int)strlen( ofn.lpstrFile ); i++ )
+        int len = strlen( ofn.lpstrFile );
+        for ( int i = 0; i < len; i++ )
 		{
 			result[i] = ofn.lpstrFile[i];
 			if ( ofn.lpstrFile[i] == '\\' )
 				result[i] = '/';
 		}
-		result[i]='\0';
+        result[len]='\0';
 		return true;
 	}
 	return false;
@@ -747,13 +748,14 @@ bool CFileLoader::SaveFile(HWND hOwner, char* result, char *szFilter, char *szDe
 
 	if( GetSaveFileName( &ofn ) != 0 )
 	{
-		for ( int i = 0; i < (int)strlen( ofn.lpstrFile ); i++ )
+        int len = (int)strlen( ofn.lpstrFile );
+        for ( int i = 0; i < len; i++ )
 		{
 			result[i] = ofn.lpstrFile[i];
 			if ( ofn.lpstrFile[i] == '\\' )
 				result[i] = '/';
 		}
-		result[i]='\0';
+        result[len]='\0';
 		return true;
 	}
 	return false;
@@ -782,13 +784,14 @@ bool CFileLoader::Directory(HWND hOwner, char* result)
 
     if ( SHGetPathFromIDList(pidl, mydir) )
 	{
-		for ( int i = 0; i < (int)strlen( mydir ); i++ )
+        int len = (int)strlen( mydir );
+        for ( int i = 0; i < len; i++ )
 		{
 			result[i] = mydir[i];
 			if ( mydir[i] == '\\' )
 				result[i] = '/';
 		}
-		result[i]='\0';
+        result[len]='\0';
 		return true;
 	}
 	return false;

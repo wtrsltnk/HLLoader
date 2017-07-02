@@ -158,5 +158,5 @@ typedef struct
 	byte		ambient_level[NUM_AMBIENTS];
 } tLeaf;
 
-#include "WAD/wadtypes.h"
+#include "../WAD/wadtypes.h"
 #endif

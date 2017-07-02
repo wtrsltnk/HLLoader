@@ -5,8 +5,8 @@
 #ifndef RMFFACE_H
 #define RMFFACE_H
 
-#include "wiskunde.h"
-#include "ArrayList.h"
+#include "../common/wiskunde.h"
+#include "../common/ArrayList.h"
 
 #include "RMFObject.h"
 

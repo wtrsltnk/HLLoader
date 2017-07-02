@@ -676,17 +676,17 @@ void CRMFFile::DrawGl()
 		this->FileSolids[i]->DrawGl();
 	}
 
-	for (i = 0; i < (int)this->FileGroups.Length(); i++)
+    for (int i = 0; i < (int)this->FileGroups.Length(); i++)
 	{
 		this->FileGroups[i]->DrawGl();
 	}
 
-	for (i = 0; i < (int)this->FileEntities.Length(); i++)
+    for (int i = 0; i < (int)this->FileEntities.Length(); i++)
 	{
 		this->FileEntities[i]->DrawGl();
 	}
 
-	for (i = 0; i < (int)this->FilePaths.Length(); i++)
+    for (int i = 0; i < (int)this->FilePaths.Length(); i++)
 	{
 		this->FilePaths[i]->DrawGl();
 	}

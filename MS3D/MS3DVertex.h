@@ -7,7 +7,7 @@
 
 typedef unsigned char byte;
 
-#include "ArrayList.h"
+#include "../common/ArrayList.h"
 #include "MS3DObject.h"
 
 class CMS3DVertex;

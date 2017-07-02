@@ -5,8 +5,8 @@
 #ifndef RMFCORNER_H
 #define RMFCORNER_H
 
-#include "wiskunde.h"
-#include "ArrayList.h"
+#include "../common/wiskunde.h"
+#include "../common/ArrayList.h"
 
 #include "RMFKey.h"
 

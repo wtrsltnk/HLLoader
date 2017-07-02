@@ -8,7 +8,7 @@
 typedef unsigned char byte;
 typedef unsigned short word;
 
-#include "ArrayList.h"
+#include "../common/ArrayList.h"
 #include "MS3DObject.h"
 
 class CMS3DTriangle;
